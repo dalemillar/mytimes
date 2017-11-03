@@ -1,0 +1,58 @@
+div{
+  border: 3px solid red;
+}
+.header{
+  display: inline-flex;
+  background-color: white;
+  width: 100%;
+}
+
+.header.text{
+
+  font-family: Verdana;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header.text.special{
+  color: MediumAquamarine;
+  margin: 20px 10px;
+}
+
+.navigation{
+  color: black;
+  display: inline-block;
+  margin: 20px 30px 20px 0px;
+  justify-content: flex-end;
+  /*text-decoration: underline;*/
+}
+
+.header.text.navigation span{
+  margin: 20px;
+}
+.logo{
+
+}
+
+.special{
+  color: red;
+}
+
+.main{
+  display:inline-flex;
+  /*width: 100%;*/
+}
+.column{
+  margin: 20px;
+}
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
