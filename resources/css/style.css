@@ -43,7 +43,9 @@ div{
   /*width: 100%;*/
 }
 .column{
-  margin: 20px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
 }
 .column.large {
   width: 630px;
@@ -55,4 +57,48 @@ div{
 
 .column.small {
   width: 240px;
+}
+
+.tuna{
+  background-image: url('../images/img-story-main.png');
+  min-height: 300px;
+}
+
+.earth{
+  background-image: url('../images/img-story-2.png');
+  min-height: 300px;
+}
+
+.camera{
+  background-image: url('../images/img-story-3.png');
+  min-height: 300px;
+}
+
+.cats{
+  background-image: url('../images/img-story-1.png');
+  min-height: 300px;
+}
+
+.text{
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.headline{
+  font-size: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+
+.overlay{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.top{
+  font-size: 40px;
 }
