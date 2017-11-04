@@ -1,5 +1,5 @@
 div{
-  border: 3px solid red;
+  /*border: 3px solid red;*/
 }
 .header{
   display: inline-flex;
@@ -44,11 +44,14 @@ div{
 }
 .column{
   margin: 5px;
-  display: flex;
-  flex-direction: column;
+  display:block;
+  /*display: flex;
+  flex-direction: column;*/
 }
 .column.large {
   width: 630px;
+  display:flex;
+  flex-direction: column;
 }
 
 .column.medium {
@@ -101,4 +104,78 @@ div{
 
 .top{
   font-size: 40px;
+}
+
+.stories{
+  display: flex;
+  width: 630px;
+  justify-content: space-between;
+}
+
+p{
+  display: block;
+}
+
+.story{
+  display: flex;
+  flex-direction: column;
+  width:300px;
+}
+
+.bites{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+ul{
+  list-style: none;
+}
+
+.bite{
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  display: block;
+  border-bottom: black 1px solid;
+  /*width: 200px;*/
+  padding: 11px 20px;
+}
+
+.footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  height: 325px;
+  flex-direction: column;
+}
+
+.title{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  border-right: white 2px solid;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.footer nav{
+  display: inline-block;
+  padding-left: 25px
+}
+
+.footer span{
+  padding: 20px;
+  display: inline-block;
+}
+
+.copyright{
+  display: block;
 }
